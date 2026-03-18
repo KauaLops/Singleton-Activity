@@ -21,7 +21,7 @@ public class ControleVolume {
     public void aumentar(int passo) {
         if (passo <= 0) {
             throw new IllegalArgumentException("Passo deve ser > 0");
-        }
+    }
 
         volume += passo;
 
