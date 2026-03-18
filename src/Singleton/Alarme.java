@@ -8,6 +8,6 @@ public class Alarme {
     }
 
     public void parar() {
-        System.out.println("Alarme parado");
+        System.out.println("Alarme parado"); 
     }
 }
