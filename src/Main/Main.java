@@ -8,6 +8,7 @@ import Singleton.PlayerMusica;
 public class Main {
     public static void main(String[] args) {
 
+        
         System.out.println("=== TESTE 1 - MESMA INSTÂNCIA ===");
         ControleVolume a = ControleVolume.getInstance();
         ControleVolume b = ControleVolume.getInstance();
