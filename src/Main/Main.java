@@ -18,7 +18,7 @@ public class Main {
         PlayerMusica player = new PlayerMusica();
         Alarme alarme = new Alarme();
 
-        System.out.println("Volume inicial:");
+        System.out.println("Volume inicial: ");
         player.mostrarVolume();
 
         botao.pressionarMais();
